@@ -84,7 +84,7 @@ This class provides a hash of Portuguese CPAN authors' PAUSE ID and name to the 
 
 If you are an Portuguese CPAN author not listed here, please send me your
 ID/name via email or RT so we can always keep this module up to date.
-If there's a mistake and you're listed here but are not Italian
+If there's a mistake and you're listed here but are not Portuguese
 (or just don't want to be listed), sorry for the inconvenience:
 please contact me and I'll remove the entry right away.
 
@@ -125,6 +125,10 @@ L<http://cpanratings.perl.org/d/Acme-CPANAuthors-Portuguese>
 =item * Search CPAN
 
 L<http://search.cpan.org/dist/Acme-CPANAuthors-Portuguese/>
+
+=item * Github - get the source code
+
+L<http://github.com/braceta/acme-cpanauthors-portuguese/>
 
 =back
 
