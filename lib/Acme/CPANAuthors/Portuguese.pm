@@ -3,7 +3,7 @@ package Acme::CPANAuthors::Portuguese;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Acme::CPANAuthors::Register (
     BRACETA   => "Luis Azevedo",
@@ -44,8 +44,6 @@ use Acme::CPANAuthors::Register (
     STRANGE   => "Luciano Miguel Ferreira Rocha",          #
 );
 
-1;
-
 __END__
 
 # If you are reading this source code, you probably need to grab some beers instead... O:)
@@ -54,27 +52,18 @@ __END__
 
 Acme::CPANAuthors::Portuguese - We are the Portuguese CPAN Authors
 
-=head1 VERSION
-
-Version 0.01
-
-=cut
-
-our $VERSION = '0.01';
-
-
 =head1 SYNOPSIS
 
-use Acme::CPANAuthors;
+	use Acme::CPANAuthors;
 
-my $authors = Acme::CPANAuthors->new('Portuguese');
+	my $authors = Acme::CPANAuthors->new('Portuguese');
 
-my $number   = $authors->count;
-my @ids      = $authors->id();
-my @distros  = $authors->distributions('BRACETA');
-my $url      = $authors->avatar_url('COG');
-my $kwalitee = $authors->kwalitee('BALINHA');
-my $name     = $authors->name('AMBS');
+	my $number   = $authors->count;
+	my @ids      = $authors->ids();
+	my @distros  = $authors->distributions('BRACETA');
+	my $url      = $authors->avatar_url('COG');
+	my $kwalitee = $authors->kwalitee('BALINHA');
+	my $name     = $authors->name('AMBS');
 
 =head1 DESCRIPTION
 
