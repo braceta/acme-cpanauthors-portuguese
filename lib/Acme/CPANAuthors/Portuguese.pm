@@ -3,7 +3,7 @@ package Acme::CPANAuthors::Portuguese;
 use warnings;
 use strict;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Acme::CPANAuthors::Register (
     BRACETA   => "Luis Azevedo",
@@ -42,6 +42,8 @@ use Acme::CPANAuthors::Register (
     ACARVALHO => "Alexandre Martins de Carvalho",          #
     FAPG      => "Fernando A. P. Gomes",                   #
     STRANGE   => "Luciano Miguel Ferreira Rocha",          #
+    AFFC      => "Ari Constâncio",                         #
+
 );
 
 __END__
