@@ -1,8 +1,13 @@
-Revision history for Acme-CPANAuthors-Portuguese
+Revision history for Perl module Acme::CPANAuthors::Portuguese
 
-0.01    April 16/22:16 (BRACETA)
-        First version, released on an unsuspecting world.
-0.02    April 17/14:47 (BRACETA)
-		Fixed some documentation problems. 
-0.03    April 27/00:08 (BRACETA)
-		Added PREREQ_PM to Makefile.PL
+0.01 2009-04-16T22:16 (BRACETA)
+ - First version, released on an unsuspecting world.
+
+0.02 2009-04-17T14:47 (BRACETA)
+ - Fixed some documentation problems.
+
+0.03 2009-04-27T00:08 (BRACETA)
+ - Added PREREQ_PM to Makefile.PL
+
+0.04 2010-07-14
+ - added AFFC
