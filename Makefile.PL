@@ -10,6 +10,14 @@ WriteMakefile(
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),
+    ($ExtUtils::MakeMaker::VERSION < 6.46
+      ? ()
+      : ( META_MERGE => {
+            resources => {
+              repository => 'https://github.com/braceta/acme-cpanauthors-portuguese',
+            },
+            no_index => {directory => [qw/t/]},
+          })), 
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
