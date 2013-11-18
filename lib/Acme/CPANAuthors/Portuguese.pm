@@ -2,6 +2,7 @@ package Acme::CPANAuthors::Portuguese;
 
 use warnings;
 use strict;
+use utf8;
 
 our $VERSION = '0.04';
 
@@ -49,6 +50,10 @@ use Acme::CPANAuthors::Register (
 __END__
 
 # If you are reading this source code, you probably need to grab some beers instead... O:)
+
+=pod
+
+=encoding UTF-8
 
 =head1 NAME
 
